@@ -1,5 +1,6 @@
 {
   "presets": [
     "react-native"
-  ]
+  ],
+  "retainLines": true
 }

@@ -2,15 +2,19 @@
 	"name": "react-native-animated-interactions",
 	"version": "0.0.1",
 	"scripts": {
-		"start": "node node_modules/react-native/local-cli/cli.js start",
 		"test": "jest",
-		"release": "npm version patch && git push && npm publish"
+		"release": ": #npm version patch && git push && npm publish"
+	},
+	"peerDependencies": {
+		"react": "*",
+		"react-native": "*"
 	},
 	"dependencies": {
-		"react": "15.4.2",
-		"react-native": "0.40.0"
+		"lodash": "4.x.x"
 	},
 	"devDependencies": {
+		"react": "15.4.2",
+		"react-native": "0.40.0",
 		"babel-jest": "18.x.x",
 		"babel-preset-react-native": "1.x.x",
 		"jest": "18.x.x",
