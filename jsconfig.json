@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "target": "ES6"
+    },
+    "exclude": [
+        "node_modules",
+        "playground/node_modules"
+    ],
+    "react-native-tools": {
+        "projectRoot": "./"
+    }
+}
