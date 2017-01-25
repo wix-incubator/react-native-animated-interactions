@@ -71,7 +71,8 @@ export default class playground extends Component {
             onScroll={
               Animated.event([{
                 nativeEvent: { contentOffset: { x: this.state.scrollX } }
-              }], {
+              }],
+                {
                   useNativeDriver: true,
                 })
             }
